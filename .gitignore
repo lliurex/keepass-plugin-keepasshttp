@@ -1,0 +1,10 @@
+*.swp
+*.suo
+obj
+bin
+create-plgx.bat
+/#portable/
+*.cer
+*.pvk
+*.csproj.user
+/KeePassHttp/KeePassHttp.dll

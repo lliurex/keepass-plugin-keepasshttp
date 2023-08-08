@@ -1,0 +1,20 @@
+keepass2-plugin-keepasshttp (1.8.4.2+dfsg1-2~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * ppa upload
+
+ -- Julian Taylor <jtaylor.debian@googlemail.com>  Wed, 16 May 2018 19:14:29 +0200
+
+keepass2-plugin-keepasshttp (1.8.4.2+dfsg1-2) unstable; urgency=medium
+
+  * Remove "or any later version" from GPL notice in debian/copyright
+    Closes: #898572
+  * Bump standard version to 4.1.4, no changes necessary
+  * Update copyright format url to https
+
+ -- Julian Taylor <jtaylor.debian@googlemail.com>  Wed, 16 May 2018 18:49:21 +0200
+
+keepass2-plugin-keepasshttp (1.8.4.2+dfsg1-1) unstable; urgency=low
+
+  * Initial release (Closes: #892055)
+
+ -- Julian Taylor <jtaylor.debian@googlemail.com>  Sun, 04 Mar 2018 16:48:37 +0100
