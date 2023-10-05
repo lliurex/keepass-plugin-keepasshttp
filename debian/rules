@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_VERBOSE=1
+
+%:
+	dh $@  --with=cli
+
+override_dh_auto_clean:
+	:
+
+override_dh_auto_build:
+	LC_ALL=C.UTF-8 xbuild  /property:Configuration=Release /p:TargetFrameworkVersion="v4.5"
